@@ -1,0 +1,17 @@
+Flask==0.10.1
+Flask-Bootstrap==3.0.3.1
+Flask-WTF==0.9.4
+Jinja2==2.7.1
+MarkupSafe==0.18
+WTForms==1.0.5
+Werkzeug==0.9.4
+argparse==1.2.1
+docopt==0.6.1
+gevent==1.0
+greenlet==0.4.1
+gunicorn==18.0
+itsdangerous==0.23
+pycrypto==2.6.1
+-e git+https://github.com/martinp/pysnap@e8a236a09f17392ff809b1c9e13368facea29831#egg=pysnap-master
+requests==2.1.0
+wsgiref==0.1.2

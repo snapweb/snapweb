@@ -1,0 +1,15 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block title %}Snapview{% endblock %}
+
+{% block content %}
+<form role="form" method="POST" action="/login">
+  {{ wtf.form_errors(form, hiddens="only") }}
+
+  {{ wtf.form_field(form.username) }}
+  {{ wtf.form_field(form.password) }}
+
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+{% endblock %}
